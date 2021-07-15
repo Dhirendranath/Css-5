@@ -1,0 +1,32 @@
+/* img{
+  height: 100px;
+  width: 80px;
+}
+.box{
+  height: 100px;
+  width: 100px;
+  border: 2px solid rgb(117, 3, 121);
+}
+.outer-box{
+  background-color: red;
+}
+.inner-box{
+  background-color: blue;
+  /* transform: scale(0.5);
+  transform: rotate(30deg); do not word with separate */
+  /* transform: rotate(45deg) scale(.5) translateX(50px); */
+
+/* } */ 
+.box1{
+  height: 200px;
+  width: 100px;
+  background-color: red;
+  border: 2px solid black;
+  transition:width 3s;
+
+}
+.box1:hover{
+  background-color: blue;
+  width: 200px;
+}
+
